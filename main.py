@@ -18,7 +18,7 @@ import os
 # --- Bước 3: Cấu hình dự án ---
 # LƯU Ý: Lập trình viên sẽ cần thay thế các giá trị này.
 # Bạn cần cung cấp cho họ file .json đã tải về.
-PROJECT_ID = "[dotted-electron-464601-a6]"
+PROJECT_ID = "dotted-electron-464601-a6"
 LOCATION = "us-central1"  # Thường là khu vực này cho các model tạo ảnh
 SERVICE_ACCOUNT_FILE = "service_account_key.json" # Đổi tên file .json của bạn thành tên này và để cùng thư mục
 
@@ -91,3 +91,4 @@ async def generate_image_endpoint(style: str, product_image: UploadFile = File(.
 # Để chạy file này, mở terminal và gõ:
 
 # uvicorn main:app --host 0.0.0.0 --port 8000
+
